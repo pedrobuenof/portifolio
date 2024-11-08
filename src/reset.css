@@ -1,0 +1,28 @@
+/* reset.css */
+
+/* Remove margens, espaçamento e bordas padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remova o estilo padrão para lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remova o sublinhado e ajuste a cor de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Define uma tipografia padrão */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
