@@ -1,0 +1,57 @@
+/* Estilo geral */
+.navbar_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: whitesmoke; */
+}
+  
+/* Ícones de hambúrguer e fechar */
+.hamburger_icon,
+.close_icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+/* Estilo para o ícone de fechar no topo direito */
+.close_icon {
+    text-align: end;
+    width: inherit;
+    color: rgb(255, 255, 255);
+}
+ 
+/* Estilo da lista do menu */
+.menu_list {
+    display: none;
+    opacity: 0;
+    /* transform: translateY(-20px); */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+  
+/* Menu aberto com animação */
+.menu_list.menu_open {
+    position: absolute;
+    top: 0;
+    left: 60vw;
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    color: rgb(225, 225, 225);
+    font-weight: bold;
+}
+
+.list_mobile {
+    display: flex;
+    width: 30vw;
+    height: 11vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+  
+  

@@ -1,0 +1,23 @@
+:root {
+    --body-bg-color: #303030;
+    --special-text-color: #01edf9;
+    --text-color: rgb(221, 221, 221);
+}
+header {
+    position: relative;
+    background-color: brown;
+    width: 100vw;
+    height: 11vh;
+    padding: 1.5vh 2.5vw;
+    border-bottom: 1px solid var(--special-text-color);
+    /* position: fixed; */
+    /* top: 0px; */
+    /* left: 0px; */
+    /* height: auto; */
+    background-color: var(--body-bg-color);
+    box-shadow: 0px 1px 4px var(--special-text-color);
+    /* z-index: 10; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
