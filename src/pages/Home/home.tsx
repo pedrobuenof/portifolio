@@ -1,9 +1,9 @@
-import Header from "../../components/header/Header";
+import IndexHeader from "../../components/Header/Index";
 
 export default function Home(){
     return(
         <>
-            <Header/>
+            <IndexHeader/>
         </>
     )
 }

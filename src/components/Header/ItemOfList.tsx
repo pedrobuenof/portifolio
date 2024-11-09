@@ -4,6 +4,6 @@ interface ItemOfListProps{
 }
 export default function ItemOfList(props: ItemOfListProps) {
     return (
-        <li>{props.itemName}</li>
+        <li><a href="">{props.itemName}</a></li>
     )
 }
