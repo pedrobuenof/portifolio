@@ -1,0 +1,25 @@
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #303030;
+  padding: 0 5vw 2vh;
+  color: white;
+  width: 100vw;
+  height: 12vh;
+}
+
+.nav-footer{
+  display: flex;
+  gap: 2vw;
+}
+
+.contact{
+  display: flex;
+  gap: 2vw;
+}
+
+.copyright{
+  font-size: 13px;
+}
