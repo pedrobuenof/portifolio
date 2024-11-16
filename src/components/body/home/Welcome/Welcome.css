@@ -1,0 +1,41 @@
+/**********--------WELCOME-MOBILE--------**********/
+.welcome-content-mobile{
+  width: 100vw;
+}
+
+.welcome-first-content-mobile{
+
+}
+
+.welcome-second-content-mobile{
+  width: 100vw;
+  height: 30vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.img-principal-mobile{
+  width: 70vw;
+  height: 30vh;
+  border-radius: 50%;
+}
+
+/**********--------WELCOME-DESKTOP--------**********/
+.welcome-content-desktop{
+
+}
+
+.welcome-first-content-desktop{
+
+}
+
+.welcome-second-content-desktop{
+
+}
+
+.img-principal-desktop{
+
+}
