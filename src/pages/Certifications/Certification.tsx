@@ -1,4 +1,4 @@
-export default function Certification() {
+export default function CertificationPages() {
     return (
         <>
             <h1>Certifications</h1>
